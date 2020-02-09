@@ -1,0 +1,162 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:1:1-29:12
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:1:1-29:12
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:1:1-29:12
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:1:1-29:12
+MERGED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:1:1-29:12
+MERGED from [:emoji_picker] D:\flutter\workspace\emoji_picker\example\build\emoji_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] D:\flutter\workspace\emoji_picker\example\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_web] D:\flutter\workspace\emoji_picker\example\build\shared_preferences_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_macos] D:\flutter\workspace\emoji_picker\example\build\shared_preferences_macos\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0-rc01.aar\aaa8829e6b4de65ee5c8fcba5e9cf391\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0-rc01.aar\c1f9d2d292986c4370e3154509d306cc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0-rc01.aar\2e856a887c5c8b019efdd01c3b25dbf6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\loader-1.0.0-rc01.aar\9929d92ed1c3cc55fe2d67484ccb0788\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0-rc01.aar\a5624d1a69564ed0dfec500d9513c925\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0-rc01.aar\c530f4f6bff72922f3054e729e27e771\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0-rc01.aar\c2728973541ada2b8dd9303ac36c6f7d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0-rc01.aar\2013a57a46a79feb7b7ca32ac77a4290\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\customview-1.0.0-rc01.aar\24c255853e3afd088374d9cfc4eeaf8c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0-rc01.aar\54a6076fcdaa64195903e19c1317878f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0-rc01.aar\f0f2c1c21e42c70b17134e7448af3bfb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\53f99934252d107996fa63280982d368\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0-rc01.aar\8194d28ff3b25ba170f43acee370b0c7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-rc01.aar\0d17fc196e52d00dd081c9bf38229c5f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-rc01.aar\4fde44c5f9f40bd5bed2151a9a7f10b1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-rc01.aar\e3925dd017c91d114c6b666c14c258b9\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0-rc01.aar\0febd6bd56346957d2d62278c22b6de3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0-rc01.aar\8a2509360fc9a031c7fc0329350c265d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0-rc01.aar\2c64de14abfe3b4a34e8dcc012f18e3a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0-rc01.aar\dd060184475a716b9d5f2009545c02ab\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\print-1.0.0-rc01.aar\10beeead329d835ec3dc453efff806e1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0-rc01.aar\f5bd1c8b3f3b72512dd2baf56c1bf321\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:2:5-42
+		INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:1:1-29:12
+		INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:1:1-29:12
+		INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:9:5-28:19
+MERGED from [androidx.core:core:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\53f99934252d107996fa63280982d368\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\53f99934252d107996fa63280982d368\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-rc01.aar\e3925dd017c91d114c6b666c14c258b9\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-rc01.aar\e3925dd017c91d114c6b666c14c258b9\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\53f99934252d107996fa63280982d368\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:11:9-42
+	android:icon
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:12:9-43
+	android:name
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:10:9-57
+activity#com.jeffg.emoji_picker_test.MainActivity
+ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:13:9-24:20
+	android:launchMode
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:17:13-144
+	android:theme
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:20:13-23:29
+action#android.intent.action.MAIN
+ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:21:17-68
+	android:name
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:22:17-76
+	android:name
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:22:27-74
+meta-data#flutterEmbedding
+ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:25:9-27:33
+	android:value
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:27:13-30
+	android:name
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml:26:13-44
+uses-sdk
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml
+MERGED from [:emoji_picker] D:\flutter\workspace\emoji_picker\example\build\emoji_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:emoji_picker] D:\flutter\workspace\emoji_picker\example\build\emoji_picker\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] D:\flutter\workspace\emoji_picker\example\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] D:\flutter\workspace\emoji_picker\example\build\shared_preferences\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_web] D:\flutter\workspace\emoji_picker\example\build\shared_preferences_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_web] D:\flutter\workspace\emoji_picker\example\build\shared_preferences_web\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] D:\flutter\workspace\emoji_picker\example\build\shared_preferences_macos\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_macos] D:\flutter\workspace\emoji_picker\example\build\shared_preferences_macos\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0-rc01.aar\aaa8829e6b4de65ee5c8fcba5e9cf391\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0-rc01.aar\aaa8829e6b4de65ee5c8fcba5e9cf391\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0-rc01.aar\c1f9d2d292986c4370e3154509d306cc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0-rc01.aar\c1f9d2d292986c4370e3154509d306cc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0-rc01.aar\2e856a887c5c8b019efdd01c3b25dbf6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0-rc01.aar\2e856a887c5c8b019efdd01c3b25dbf6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\loader-1.0.0-rc01.aar\9929d92ed1c3cc55fe2d67484ccb0788\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\loader-1.0.0-rc01.aar\9929d92ed1c3cc55fe2d67484ccb0788\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0-rc01.aar\a5624d1a69564ed0dfec500d9513c925\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0-rc01.aar\a5624d1a69564ed0dfec500d9513c925\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0-rc01.aar\c530f4f6bff72922f3054e729e27e771\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0-rc01.aar\c530f4f6bff72922f3054e729e27e771\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0-rc01.aar\c2728973541ada2b8dd9303ac36c6f7d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0-rc01.aar\c2728973541ada2b8dd9303ac36c6f7d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0-rc01.aar\2013a57a46a79feb7b7ca32ac77a4290\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0-rc01.aar\2013a57a46a79feb7b7ca32ac77a4290\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\customview-1.0.0-rc01.aar\24c255853e3afd088374d9cfc4eeaf8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\customview-1.0.0-rc01.aar\24c255853e3afd088374d9cfc4eeaf8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0-rc01.aar\54a6076fcdaa64195903e19c1317878f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0-rc01.aar\54a6076fcdaa64195903e19c1317878f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0-rc01.aar\f0f2c1c21e42c70b17134e7448af3bfb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0-rc01.aar\f0f2c1c21e42c70b17134e7448af3bfb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\53f99934252d107996fa63280982d368\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\core-1.0.0-rc01.aar\53f99934252d107996fa63280982d368\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0-rc01.aar\8194d28ff3b25ba170f43acee370b0c7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0-rc01.aar\8194d28ff3b25ba170f43acee370b0c7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-rc01.aar\0d17fc196e52d00dd081c9bf38229c5f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0-rc01.aar\0d17fc196e52d00dd081c9bf38229c5f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-rc01.aar\4fde44c5f9f40bd5bed2151a9a7f10b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0-rc01.aar\4fde44c5f9f40bd5bed2151a9a7f10b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-rc01.aar\e3925dd017c91d114c6b666c14c258b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0-rc01.aar\e3925dd017c91d114c6b666c14c258b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0-rc01.aar\0febd6bd56346957d2d62278c22b6de3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0-rc01.aar\0febd6bd56346957d2d62278c22b6de3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0-rc01.aar\8a2509360fc9a031c7fc0329350c265d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0-rc01.aar\8a2509360fc9a031c7fc0329350c265d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0-rc01.aar\2c64de14abfe3b4a34e8dcc012f18e3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0-rc01.aar\2c64de14abfe3b4a34e8dcc012f18e3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0-rc01.aar\dd060184475a716b9d5f2009545c02ab\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0-rc01.aar\dd060184475a716b9d5f2009545c02ab\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\print-1.0.0-rc01.aar\10beeead329d835ec3dc453efff806e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\print-1.0.0-rc01.aar\10beeead329d835ec3dc453efff806e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0-rc01.aar\f5bd1c8b3f3b72512dd2baf56c1bf321\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0-rc01] D:\android\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0-rc01.aar\f5bd1c8b3f3b72512dd2baf56c1bf321\AndroidManifest.xml:20:5-44
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from D:\flutter\workspace\emoji_picker\example\android\app\src\debug\AndroidManifest.xml:6:22-64

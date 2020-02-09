@@ -276,7 +276,7 @@ class Emoji {
   }
 }
 
-class _EmojiPickerState extends State<EmojiPicker> {
+class _EmojiPickerState extends State<EmojiPicker> with AutomaticKeepAliveClientMixin{
   static const platform = const MethodChannel("emoji_picker");
 
   List<Widget> pages = new List();
@@ -327,6 +327,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
     } else {
       return true;
     }
+    //return Future.value(true);
   }
 
   Future<List<String>> getRecentEmojis() async {
@@ -503,6 +504,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
           recommendedPages.add(Container(
             color: widget.bgColor,
             child: GridView.count(
+              physics: const AlwaysScrollableScrollPhysics(),
               shrinkWrap: true,
               primary: true,
               crossAxisCount: widget.columns,
@@ -603,6 +605,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
         color: widget.bgColor,
         child: GridView.count(
           shrinkWrap: true,
+           physics: const AlwaysScrollableScrollPhysics(),
           primary: true,
           crossAxisCount: widget.columns,
           children: List.generate(widget.rows * widget.columns, (index) {
@@ -677,6 +680,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
         color: widget.bgColor,
         child: GridView.count(
           shrinkWrap: true,
+           physics: const AlwaysScrollableScrollPhysics(),
           primary: true,
           crossAxisCount: widget.columns,
           children: List.generate(widget.rows * widget.columns, (index) {
@@ -750,6 +754,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       foodPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+           physics: const AlwaysScrollableScrollPhysics(),
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -825,6 +830,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
         color: widget.bgColor,
         child: GridView.count(
           shrinkWrap: true,
+           physics: const AlwaysScrollableScrollPhysics(),
           primary: true,
           crossAxisCount: widget.columns,
           children: List.generate(widget.rows * widget.columns, (index) {
@@ -898,6 +904,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       activityPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+           physics: const AlwaysScrollableScrollPhysics(),
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -974,6 +981,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       objectPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+           physics: const AlwaysScrollableScrollPhysics(),
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -1048,6 +1056,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       symbolPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+           physics: const AlwaysScrollableScrollPhysics(),
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -1122,6 +1131,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
       flagPages.add(Container(
         color: widget.bgColor,
         child: GridView.count(
+           physics: const AlwaysScrollableScrollPhysics(),
           shrinkWrap: true,
           primary: true,
           crossAxisCount: widget.columns,
@@ -1200,6 +1210,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
     getRecentEmojis().then((_) {
       pages.removeAt(recommendedPagesNum);
       pages.insert(recommendedPagesNum, recentPage());
+      if(mounted)
       setState(() {});
     });
   }
@@ -1210,6 +1221,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
           color: widget.bgColor,
           child: GridView.count(
             shrinkWrap: true,
+            physics: const AlwaysScrollableScrollPhysics(),
             primary: true,
             crossAxisCount: widget.columns,
             children: List.generate(widget.rows * widget.columns, (index) {
@@ -1298,6 +1310,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     if (loaded) {
       pages.removeAt(recommendedPagesNum);
       pages.insert(recommendedPagesNum, recentPage());
@@ -1377,6 +1390,7 @@ class _EmojiPickerState extends State<EmojiPicker> {
                 widget.rows,
             width: MediaQuery.of(context).size.width,
             child: PageView(
+               physics: const AlwaysScrollableScrollPhysics(),
                 children: pages,
                 controller: pageController,
                 onPageChanged: (index) {
@@ -2217,6 +2231,9 @@ class _EmojiPickerState extends State<EmojiPicker> {
       );
     }
   }
+
+  @override
+  bool get wantKeepAlive => true;
 }
 
 class _ProgressPainter extends CustomPainter {
