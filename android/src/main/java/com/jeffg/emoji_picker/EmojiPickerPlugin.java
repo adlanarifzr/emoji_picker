@@ -42,7 +42,11 @@ public class EmojiPickerPlugin implements FlutterPlugin, MethodCallHandler {
   public void onMethodCall(@NonNull MethodCall call, @NonNull Result result) {
     if (call.method.equals("isAvailable")) {
       Paint paint = new Paint();
-      result.success(paint.hasGlyph(call.argument("emoji").toString()));
+      try{
+        result.success(paint.hasGlyph(call.argument("emoji").toString()));
+      }catch(NoSuchMethodError e){
+        result.success(false);
+      }
     } else {
       result.notImplemented();
     }
